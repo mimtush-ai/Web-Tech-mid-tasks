@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab Task 04 - HTML Form</title>
+</head>
+<body>
+
+    <h1>Student Registration Form</h1>
+
+    <!-- FORM STARTS -->
+    #
+
+        <!-- ======================= PERSONAL INFORMATION ======================= -->
+        <fieldset>
+            <legend>Personal Information</legend>
+
+            <!-- Full Name -->
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" name="fullname"><br><br>
+
+            <!-- Email -->
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email"><br><br>
+
+            <!-- Password -->
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password"><br><br>
+
+            <!-- Date of Birth -->
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob"><br><br>
+
+            <!-- Gender -->
+            <label>Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="Male">
+            <label for="male">Male</label><br>
+
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">Female</label><br>
+
+            <input type="radio" id="other" name="gender" value="Other">
+            <label for="other">Other</label><br><br>
+
+        </fieldset>
+
+        <!-- ======================= ACADEMIC INFORMATION ======================= -->
+        <fieldset>
+            <legend>Academic Information</legend>
+
+            <!-- Department -->
+            <label for="dept">Department:</label>
+            <select id="dept" name="dept">
+                <option value="CSE">CSE</option>
+                <option value="EEE">EEE</option>
+                <option value="BBA">BBA</option>
+                <option value="ME">ME</option>
+            </select><br><br>
+
+            <!-- Skills -->
+            <label>Skills:</label><br>
+
+            <input type="checkbox" id="skill1" name="skills" value="Programming">
+            <label for="skill1">Programming</label><br>
+
+            <input type="checkbox" id="skill2" name="skills" value="Communication">
+            <label for="skill2">Communication</label><br>
+
+            <input type="checkbox" id="skill3" name="skills" value="Problem Solving">
+            <label for="skill3">Problem Solving</label><br>
+
+            <input type="checkbox" id="skill4" name="skills" value="Teamwork">
+            <label for="skill4">Teamwork</label><br><br>
+
+        </fieldset>
+
+        <!-- ======================= FORM CONTROLS ======================= -->
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+
+    </form>
+
+</body>
+</html>
